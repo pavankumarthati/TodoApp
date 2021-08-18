@@ -9,6 +9,23 @@ In this branch you'll find:
 *   Reactive UIs using **LiveData** observables and **Data Binding** (and **View Binding**).
 *   A **data layer** with a repository and a local data source that is queried with the operation that can listen for future updates. Thanks to Room Flow integration.
 
+Screenshots:
+
+**Task List**
+<p align="center">
+<img src="https://github.com/pavankumarthati/TodoApp/blob/master/images/Task_list.jpg" width="300" height="650" alt="Illustration by Pavan Thati"/>
+</p>
+
+**Task Detail**
+<p align="center">
+<img src="https://github.com/pavankumarthati/TodoApp/blob/master/images/task_detail.jpg" width="300" height="650" alt="Illustration by Pavan Thati"/>
+</p>
+
+**Task (Add/Edit)**
+<p align="center">
+<img src="https://github.com/pavankumarthati/TodoApp/blob/master/images/add_edit_task.jpg" width="300" height="650" alt="Illustration by Pavan Thati"/>
+</p>
+
 Clone the repository:
 
 ```
