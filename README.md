@@ -1,4 +1,4 @@
-# Android Architecture Blueprints v2
+# Android Architecture - TODO App
 
 Todo App is a project to showcase MVVM architectural approach to developing Android apps.
 
