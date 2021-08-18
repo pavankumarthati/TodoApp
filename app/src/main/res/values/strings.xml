@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="app_label">Todo</string>
+    <string name="task_list_menu_item">Task List</string>
+    <string name="new_task">New Task</string>
+    <string name="title_empty">Title can\'t be empty</string>
+    <string name="task_successful">Task saved successfully</string>
+    <string name="no_task_found">no Task found with given id</string>
+    <string name="task_failed">task failed to create</string>
+    <string name="all_tasks">All Tasks</string>
+    <string name="completed_tasks">completed tasks</string>
+    <string name="active_tasks">Active tasks</string>
+    <string name="no_results_found">No results found</string>
+    <string name="task_filter">Filter</string>
+    <string name="clear_completed">clear completed</string>
+    <string name="refresh">Refresh</string>
+    <string name="all_filter">All</string>
+    <string name="active_filter">Active</string>
+    <string name="completed_filter">Completed</string>
+    <string name="add_task_label">Add Task</string>
+    <string name="title_not_valid">Title field is not valid</string>
+    <string name="task_added_msg">Task added successfully</string>
+    <string name="task_updated_msg">Task updated successfully</string>
+    <string name="title_label">Title</string>
+    <string name="description_not_valid">length shoul be less than 100</string>
+    <string name="fields_not_empty">fields should not be empty</string>
+    <string name="delete_task">Delete</string>
+    <string name="task_deleted">Task deleted successfully</string>
+    <string name="task_details">Task Details</string>
+    <string name="edit_Task">Edit Task</string>
+    <string name="task_completed">Task completed</string>
+    <string name="task_active">Task is active</string>
+</resources>

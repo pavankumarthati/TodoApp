@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/task_list_fragment">
+
+    <fragment
+        android:id="@+id/task_list_fragment"
+        android:label="@string/app_label"
+        android:name="com.masterbit.todoapp.ui.TaskListScreenFragment">
+
+        <action android:id="@+id/taskListToAddEditScreen"
+            app:destination="@id/addEditTaskFragment" />
+
+        <action android:id="@+id/taskListToTaskDetailFragment"
+            app:destination="@id/TaskDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEditTaskFragment"
+        android:label="{title}"
+        android:name="com.masterbit.todoapp.ui.AddEditTaskFragment">
+        <argument
+            android:name="task_id_key"
+            app:argType="long"
+            android:defaultValue="-1L"
+            app:nullable="false" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="false"
+            />
+    </fragment>
+
+    <fragment android:id="@+id/TaskDetailFragment"
+        android:label="@string/task_details"
+        android:name="com.masterbit.todoapp.ui.TaskDetailFragment">
+        <argument
+            android:name="task_id_key"
+            app:argType="long"
+            android:defaultValue="-1L"
+            app:nullable="false" />
+        <action android:id="@+id/taskDetailToAddEditTask"
+            app:destination="@id/addEditTaskFragment" />
+    </fragment>
+
+</navigation>
