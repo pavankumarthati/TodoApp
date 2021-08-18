@@ -1,17 +1,22 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="BaseTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryDark">@color/black</item>
+        <!-- This color is used in checkbox checked state -->
+        <item name="colorSecondary">@color/green_700</item>
+        <item name="colorOnSecondary">@color/white</item>
         <item name="colorAccent">@color/green_700</item>
         <item name="colorError">@color/red_700</item>
         <item name="colorSurface">@color/gray_100</item>
+        <!-- This color is used in checkbox normal state -->
         <item name="colorOnSurface">@color/gray_800</item>
+        <!-- inputEditText widget input text color -->
+        <item name="android:textColorPrimary">@color/gray_800</item>
         <item name="snackbarTextViewStyle">@style/Widget.App.Snackbar</item>
-
+        <!-- app wide font family setting. We can override this in each widget in xml -->
         <item name="android:fontFamily">@font/merriweather</item>
         <item name="fontFamily">@font/merriweather</item>
-
         <item name="colorControlActivated">@color/green_700</item>
         <item name="colorControlNormal">@color/gray_700</item>
 
@@ -48,6 +53,7 @@
         <item name="boxStrokeColor">@color/title_color_selector</item>
         <item name="android:textColorHint">@color/gray_300</item>
         <item name="hintTextColor">@color/green_700</item>
+        <!-- used for cursor color in InputEditText widget. If this is not set here then widget will use colorPrimary value defined in theme. -->
         <item name="colorControlActivated">@color/green_700</item>
     </style>
 </resources>

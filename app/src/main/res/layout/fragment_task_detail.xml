@@ -15,6 +15,8 @@
             android:id="@+id/checkMark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:checked="false"
@@ -41,14 +43,17 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             tools:text="Get laundry done!!"
+            android:fontFamily="@font/libre_franklin"
+            app:fontFamily="@font/libre_franklin"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="4dp"
             app:layout_constraintStart_toEndOf="@id/checkMark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/title"
             android:textStyle="bold"
-            android:textSize="16sp"
+            android:textColor="@color/gray_500"
+            android:textSize="12sp"
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -60,5 +65,6 @@
         app:layout_anchor="@id/task_container"
         app:layout_anchorGravity="bottom|right|end"
         android:src="@drawable/ic_edit"
+        android:contentDescription="@string/edit_Task"
         />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
