@@ -19,7 +19,7 @@
             android:hint="@string/title_label"
             app:endIconMode="clear_text"
             app:hintEnabled="true"
-            android:theme="@style/AddEdit.TitleTextStyle"
+            style="@style/AddEdit.TitleTextStyle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:paddingVertical="12dp"
             android:paddingHorizontal="10dp"
-            android:theme="@style/AddEdit.TitleTextStyle"
+            style="@style/AddEdit.TitleTextStyle"
             android:hint="Description"
             app:counterEnabled="true"
             app:counterMaxLength="100"

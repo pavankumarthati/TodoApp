@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@+id/filter" android:title="@string/task_filter" android:icon="@drawable/ic_filter_list" app:showAsAction="always" />
-    <item android:id="@+id/clear" android:title="@string/clear_completed" android:icon="@drawable/trash_icon" app:showAsAction="never" />
-    <item android:id="@+id/refresh" android:title="@string/refresh" android:icon="@drawable/ic_refresh_24" app:showAsAction="never" />
+    <item android:id="@+id/filter" android:title="@string/task_filter" android:icon="@drawable/ic_filter_list" app:showAsAction="always" app:iconTint="@color/gray_700" />
+    <item android:id="@+id/clear" android:title="@string/clear_completed" android:icon="@drawable/trash_icon" app:showAsAction="never" app:iconTint="@color/gray_700" />
+    <item android:id="@+id/refresh" android:title="@string/refresh" android:icon="@drawable/ic_refresh_24" app:showAsAction="never" app:iconTint="@color/gray_700" />
 </menu>
